@@ -1,0 +1,15 @@
+.blog {
+  width: 70%;
+  height: 1000px;
+  margin: auto;
+}
+.blog .title {
+  margin-top: 80px;
+  width: 280px;
+  height: 40px;
+  font-family: ProxThin;
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: #000 2px solid;
+}

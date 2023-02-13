@@ -1,0 +1,86 @@
+.contact{
+    width: 70%;
+    min-height:500px;
+    margin: auto;
+    margin-bottom: 100px;
+
+    .title{
+        margin-top: 80px;
+        width: 280px;
+        height: 40px;
+        font-family: ProxThin;
+        font-size: 30px;
+        color: black;
+        text-transform: uppercase;
+        border-bottom: #000 2px solid;
+    }
+    .locate{
+        width: 100%;
+        height: 637px;
+        margin-top: 50px;
+        //background-color: blue;
+        display: flex;
+        justify-content: space-between;
+
+        .left{
+            width:40%;
+            height: 100%;
+            
+            .gps{
+                width: 100%;
+                height: 442px;
+                background-image: url(../images/blog/c9630e6a0d4eea8424c9e77634f917b5.png);
+                margin-bottom: 34px;
+            }
+            .address{
+                width: 100%;
+                height: 161px;
+                font-size: 18px;
+                font-family: 'Gill Sans', 'Gill Sans Light', sans;
+                
+            }
+        }
+        .right{
+            width: 55%;
+            height: 100%;
+            //background-color: pink;
+            .form{
+                width: 100%;
+                height: 442px;
+                //background-color: red;
+                margin-bottom: 34px;
+
+                input{
+                    width: 100%;
+                    height:60px;
+                    background-color:#F5F5F5 ;
+                    margin-bottom: 21px;
+                    border:none;
+
+                    ::placeholder{
+                        color: #707070;
+                        margin: 20px ,21px;
+                    }
+                }
+                .message{
+                    width: 100%;
+                    height:200px;
+                    background-color:#F5F5F5 ;
+                    margin-bottom: 21px;
+                    border:none;
+
+                    ::placeholder{
+                        color: #707070;
+                        
+                    }
+                }
+            }
+            .send-message{
+                width: 145px;
+                font-size: 16px;
+                text-align: center;
+                @include site-button(0);
+            }
+        }
+    }
+}

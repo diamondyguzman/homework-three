@@ -1,0 +1,57 @@
+@mixin site-button($radius:20px) {
+  background-color: #79ADDC;
+  border-radius: $radius;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  font-family: Gill Sans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+@mixin promo-events($background-image:url(../images/tour/tour/tour-01.jpg)) {
+  width:236px;
+  height: 304px;
+  background-image: linear-gradient(to right,rgb(0, 0, 0,0.3),rgb(0, 0, 0,0.3) ) , $background-image;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+@mixin logo($logo:url(../images/logo/logo-black.svg)){
+  width: 136px;
+  height: 42px;
+  background-image: $logo;
+}
+
+@mixin wrapper-title($wrapper-title:color(#000)){
+  width: 170px;
+  height: 80px;
+  font-size: 60px;
+  color: $wrapper-title;
+  text-transform: uppercase;
+  border-bottom: #000 solid 2px;
+}
+@mixin tour-title($tour-title:color(#000)){
+  width: 100%;
+  height: 80px;
+  font-size: 50px;
+  color: $tour-title;
+
+  border-bottom: #000 solid 2px;
+}
+
+@mixin callout($callout:color(#fff)){
+  font-size:70px;
+  width:687px;
+  height:106px;
+  color: $callout;
+  font-family: ProxThin;
+}
+
+@mixin startPrice($startPrice:color(#fff)){
+  font-size:20px;  
+  color: $startPrice;
+  font-family: ProxThin;
+
+}

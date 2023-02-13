@@ -1,0 +1,152 @@
+.tours {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  //background-color: aqua;
+
+  .wrapper {
+    padding-top: 50px;
+    width: 70%;
+    min-height: 500px;
+    //background-color: brown;
+    margin: auto;
+    text-align: left;
+
+    .tour-trips {
+      min-height: 304px;
+      display: flex;
+      //align-items: center;
+      justify-content: space-evenly;
+      // background-color: blue;
+
+
+      .tour-events {
+        width: 236px;
+        height: 304px;
+        //background-color: blueviolet;
+        margin-bottom: 55px;
+
+        a{
+          text-decoration: none;
+        }
+
+        .tour-imageI {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-01.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-imageU {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-02.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-imageA {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-03.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-imageNZ {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-04.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-imageF {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-05.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-imageE {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-06.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-imageJ {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-07.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-imageC {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-08.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-imageUE {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/tour/tour/tour-09.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .tour-info {
+          margin-top: -304px;
+          color: white;
+
+          .title {
+            font-size: 60px;
+            font-family: ProxThin;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 32px;
+          }
+
+          .price {
+            margin: 0 auto;
+            text-align: center;
+
+            font-size: 30px;
+          }
+
+          .learn-more {
+            width: 133px;
+            height: 40px;
+            margin: 0 auto;
+            text-align: center;
+            @include site-button;
+            margin-top: 85px;
+
+          }
+        }
+
+      }
+    }
+
+
+
+
+
+  }
+}

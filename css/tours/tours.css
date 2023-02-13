@@ -1,0 +1,13 @@
+.tours {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+.tours .wrapper {
+  padding-top: 100px;
+  width: 100%;
+  min-height: 500px;
+  background-color: brown;
+  margin: auto;
+  text-align: left;
+}
